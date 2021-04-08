@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://cdn.shopify.com/s/files/1/0070/7032/files/AMgoal-setting_HEADER.jpg?v=1579623952');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    font-family: "Lobster", cursive;
+    margin: 0;
+}
+h1
+{
+    font-size: 2rem;
+    margin-top: 0.3rem;
+}
+
+.countdown-container 
+{
+    display: flex;
+    margin-top: 360px;
+    margin-right: -600px;
+}
+
+.big-text
+{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el
+{
+    text-align: center;
+}
+.countdown-el span
+{
+    font-size: 1.5rem;
+}
